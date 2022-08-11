@@ -17,6 +17,8 @@ A pasta bemol_challenge_backend contém a REST API desenvolvida em NodeJs na ver
 
 ### Execução
 * Acesse a pasta bemol_challenge_backend em seu terminal;
+* Certifique-se que você já possui o NodeJs na versão 16.16.0 instalado em seu dispositivo;
+* Realize a instalação da última versão do Yarn utilizando o comando 'npm install --global yarn';
 * Execute o comando 'yarn' para buscar as dependências;
 * Execute o comando 'yarn prisma migrate dev' para aplicar as migrations
 * Execute o comando 'yarn dev' para criar o servidor na porta 3000
